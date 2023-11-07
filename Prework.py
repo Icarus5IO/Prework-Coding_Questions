@@ -19,7 +19,7 @@ def first_odds():
     for numbers in range(1,101,2):
         print(numbers)
 
-# first_odds()
+first_odds()
 
 
 # Question 4
@@ -52,3 +52,6 @@ def is_consecutive(a_list):
             return False
     return True
 
+list = [1,3,5,7,2,4,6]
+
+print(is_consecutive(list))
